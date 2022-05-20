@@ -1,9 +1,9 @@
 <?php
 
-namespace JeroenNoten\LaravelAdminLte\Console;
+namespace Kalpvaig\LaravelAdminLte\Console;
 
 use Illuminate\Console\Command;
-use JeroenNoten\LaravelAdminLte\Console\PackageResources\MainViewsResource;
+use Kalpvaig\LaravelAdminLte\Console\PackageResources\MainViewsResource;
 
 class AdminLteUpdateCommand extends Command
 {

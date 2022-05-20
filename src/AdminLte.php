@@ -1,14 +1,14 @@
 <?php
 
-namespace JeroenNoten\LaravelAdminLte;
+namespace Kalpvaig\LaravelAdminLte;
 
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Contracts\Events\Dispatcher;
-use JeroenNoten\LaravelAdminLte\Events\BuildingMenu;
-use JeroenNoten\LaravelAdminLte\Helpers\LayoutHelper;
-use JeroenNoten\LaravelAdminLte\Helpers\NavbarItemHelper;
-use JeroenNoten\LaravelAdminLte\Helpers\SidebarItemHelper;
-use JeroenNoten\LaravelAdminLte\Menu\Builder;
+use Kalpvaig\LaravelAdminLte\Events\BuildingMenu;
+use Kalpvaig\LaravelAdminLte\Helpers\LayoutHelper;
+use Kalpvaig\LaravelAdminLte\Helpers\NavbarItemHelper;
+use Kalpvaig\LaravelAdminLte\Helpers\SidebarItemHelper;
+use Kalpvaig\LaravelAdminLte\Menu\Builder;
 
 class AdminLte
 {

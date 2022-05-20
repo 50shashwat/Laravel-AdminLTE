@@ -1,6 +1,6 @@
 <?php
 
-namespace JeroenNoten\LaravelAdminLte\View\Components\Form\Traits;
+namespace Kalpvaig\LaravelAdminLte\View\Components\Form\Traits;
 
 trait OldValueSupportTrait
 {

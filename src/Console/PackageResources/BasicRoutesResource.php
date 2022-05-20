@@ -1,8 +1,8 @@
 <?php
 
-namespace JeroenNoten\LaravelAdminLte\Console\PackageResources;
+namespace Kalpvaig\LaravelAdminLte\Console\PackageResources;
 
-use JeroenNoten\LaravelAdminLte\Helpers\CommandHelper;
+use Kalpvaig\LaravelAdminLte\Helpers\CommandHelper;
 
 class BasicRoutesResource extends PackageResource
 {

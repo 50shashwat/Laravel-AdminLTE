@@ -1,6 +1,6 @@
 <?php
 
-namespace JeroenNoten\LaravelAdminLte\Helpers;
+namespace Kalpvaig\LaravelAdminLte\Helpers;
 
 class UtilsHelper
 {

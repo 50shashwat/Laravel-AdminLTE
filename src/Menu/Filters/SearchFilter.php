@@ -1,9 +1,9 @@
 <?php
 
-namespace JeroenNoten\LaravelAdminLte\Menu\Filters;
+namespace Kalpvaig\LaravelAdminLte\Menu\Filters;
 
-use JeroenNoten\LaravelAdminLte\Helpers\NavbarItemHelper;
-use JeroenNoten\LaravelAdminLte\Helpers\SidebarItemHelper;
+use Kalpvaig\LaravelAdminLte\Helpers\NavbarItemHelper;
+use Kalpvaig\LaravelAdminLte\Helpers\SidebarItemHelper;
 
 class SearchFilter implements FilterInterface
 {

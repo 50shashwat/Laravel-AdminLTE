@@ -1,9 +1,9 @@
 <?php
 
-namespace JeroenNoten\LaravelAdminLte\View\Components\Tool;
+namespace Kalpvaig\LaravelAdminLte\View\Components\Tool;
 
 use Illuminate\View\Component;
-use JeroenNoten\LaravelAdminLte\Helpers\UtilsHelper;
+use Kalpvaig\LaravelAdminLte\Helpers\UtilsHelper;
 
 class Modal extends Component
 {

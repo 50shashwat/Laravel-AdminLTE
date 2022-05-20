@@ -1,10 +1,10 @@
 <?php
 
-namespace JeroenNoten\LaravelAdminLte\Helpers;
+namespace Kalpvaig\LaravelAdminLte\Helpers;
 
 use Illuminate\Support\Facades\View;
-use JeroenNoten\LaravelAdminLte\Events\ReadingDarkModePreference;
-use JeroenNoten\LaravelAdminLte\Http\Controllers\DarkModeController;
+use Kalpvaig\LaravelAdminLte\Events\ReadingDarkModePreference;
+use Kalpvaig\LaravelAdminLte\Http\Controllers\DarkModeController;
 
 class LayoutHelper
 {

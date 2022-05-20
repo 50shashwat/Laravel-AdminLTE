@@ -1,6 +1,6 @@
 <?php
 
-use JeroenNoten\LaravelAdminLte\View\Components;
+use Kalpvaig\LaravelAdminLte\View\Components;
 
 class LayoutComponentsTest extends TestCase
 {

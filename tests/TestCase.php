@@ -7,16 +7,16 @@ use Illuminate\Events\Dispatcher;
 use Illuminate\Http\Request;
 use Illuminate\Routing\RouteCollection;
 use Illuminate\Routing\UrlGenerator;
-use JeroenNoten\LaravelAdminLte\AdminLte;
-use JeroenNoten\LaravelAdminLte\Menu\ActiveChecker;
-use JeroenNoten\LaravelAdminLte\Menu\Builder;
-use JeroenNoten\LaravelAdminLte\Menu\Filters\ActiveFilter;
-use JeroenNoten\LaravelAdminLte\Menu\Filters\ClassesFilter;
-use JeroenNoten\LaravelAdminLte\Menu\Filters\DataFilter;
-use JeroenNoten\LaravelAdminLte\Menu\Filters\GateFilter;
-use JeroenNoten\LaravelAdminLte\Menu\Filters\HrefFilter;
-use JeroenNoten\LaravelAdminLte\Menu\Filters\LangFilter;
-use JeroenNoten\LaravelAdminLte\Menu\Filters\SearchFilter;
+use Kalpvaig\LaravelAdminLte\AdminLte;
+use Kalpvaig\LaravelAdminLte\Menu\ActiveChecker;
+use Kalpvaig\LaravelAdminLte\Menu\Builder;
+use Kalpvaig\LaravelAdminLte\Menu\Filters\ActiveFilter;
+use Kalpvaig\LaravelAdminLte\Menu\Filters\ClassesFilter;
+use Kalpvaig\LaravelAdminLte\Menu\Filters\DataFilter;
+use Kalpvaig\LaravelAdminLte\Menu\Filters\GateFilter;
+use Kalpvaig\LaravelAdminLte\Menu\Filters\HrefFilter;
+use Kalpvaig\LaravelAdminLte\Menu\Filters\LangFilter;
+use Kalpvaig\LaravelAdminLte\Menu\Filters\SearchFilter;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 use Symfony\Component\HttpFoundation\Request as SymfonyRequest;
 
@@ -35,7 +35,7 @@ class TestCase extends BaseTestCase
     {
         // Register our package service provider into the Laravel application.
 
-        return ['JeroenNoten\LaravelAdminLte\AdminLteServiceProvider'];
+        return ['Kalpvaig\LaravelAdminLte\AdminLteServiceProvider'];
     }
 
     protected function makeMenuBuilder($uri = 'http://example.com', GateContract $gate = null, $locale = 'en')

@@ -1,6 +1,6 @@
 <?php
 
-namespace JeroenNoten\LaravelAdminLte\View\Components\Widget;
+namespace Kalpvaig\LaravelAdminLte\View\Components\Widget;
 
 use Illuminate\View\Component;
 

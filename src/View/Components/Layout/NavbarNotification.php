@@ -1,6 +1,6 @@
 <?php
 
-namespace JeroenNoten\LaravelAdminLte\View\Components\Layout;
+namespace Kalpvaig\LaravelAdminLte\View\Components\Layout;
 
 use Illuminate\View\Component;
 

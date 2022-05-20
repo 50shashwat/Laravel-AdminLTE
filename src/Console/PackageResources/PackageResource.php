@@ -1,6 +1,6 @@
 <?php
 
-namespace JeroenNoten\LaravelAdminLte\Console\PackageResources;
+namespace Kalpvaig\LaravelAdminLte\Console\PackageResources;
 
 abstract class PackageResource
 {

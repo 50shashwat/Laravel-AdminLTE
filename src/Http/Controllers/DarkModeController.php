@@ -1,8 +1,8 @@
 <?php
 
-namespace JeroenNoten\LaravelAdminLte\Http\Controllers;
+namespace Kalpvaig\LaravelAdminLte\Http\Controllers;
 
-use JeroenNoten\LaravelAdminLte\Events\DarkModeWasToggled;
+use Kalpvaig\LaravelAdminLte\Events\DarkModeWasToggled;
 
 class DarkModeController extends Controller
 {

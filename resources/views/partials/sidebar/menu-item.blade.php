@@ -1,4 +1,4 @@
-@inject('sidebarItemHelper', 'JeroenNoten\LaravelAdminLte\Helpers\SidebarItemHelper')
+@inject('sidebarItemHelper', 'Kalpvaig\LaravelAdminLte\Helpers\SidebarItemHelper')
 
 @if ($sidebarItemHelper->isHeader($item))
 

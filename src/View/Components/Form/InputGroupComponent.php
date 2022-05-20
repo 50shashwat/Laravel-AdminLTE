@@ -1,9 +1,9 @@
 <?php
 
-namespace JeroenNoten\LaravelAdminLte\View\Components\Form;
+namespace Kalpvaig\LaravelAdminLte\View\Components\Form;
 
 use Illuminate\View\Component;
-use JeroenNoten\LaravelAdminLte\Helpers\UtilsHelper;
+use Kalpvaig\LaravelAdminLte\Helpers\UtilsHelper;
 
 class InputGroupComponent extends Component
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace JeroenNoten\LaravelAdminLte;
+namespace Kalpvaig\LaravelAdminLte;
 
 use Illuminate\Contracts\Config\Repository;
 use Illuminate\Contracts\Container\Container;
@@ -8,16 +8,16 @@ use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
-use JeroenNoten\LaravelAdminLte\Console\AdminLteInstallCommand;
-use JeroenNoten\LaravelAdminLte\Console\AdminLtePluginCommand;
-use JeroenNoten\LaravelAdminLte\Console\AdminLteStatusCommand;
-use JeroenNoten\LaravelAdminLte\Console\AdminLteUpdateCommand;
-use JeroenNoten\LaravelAdminLte\Events\BuildingMenu;
-use JeroenNoten\LaravelAdminLte\Http\ViewComposers\AdminLteComposer;
-use JeroenNoten\LaravelAdminLte\View\Components\Form;
-use JeroenNoten\LaravelAdminLte\View\Components\Layout;
-use JeroenNoten\LaravelAdminLte\View\Components\Tool;
-use JeroenNoten\LaravelAdminLte\View\Components\Widget;
+use Kalpvaig\LaravelAdminLte\Console\AdminLteInstallCommand;
+use Kalpvaig\LaravelAdminLte\Console\AdminLtePluginCommand;
+use Kalpvaig\LaravelAdminLte\Console\AdminLteStatusCommand;
+use Kalpvaig\LaravelAdminLte\Console\AdminLteUpdateCommand;
+use Kalpvaig\LaravelAdminLte\Events\BuildingMenu;
+use Kalpvaig\LaravelAdminLte\Http\ViewComposers\AdminLteComposer;
+use Kalpvaig\LaravelAdminLte\View\Components\Form;
+use Kalpvaig\LaravelAdminLte\View\Components\Layout;
+use Kalpvaig\LaravelAdminLte\View\Components\Tool;
+use Kalpvaig\LaravelAdminLte\View\Components\Widget;
 
 class AdminLteServiceProvider extends BaseServiceProvider
 {

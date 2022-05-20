@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\File;
-use JeroenNoten\LaravelAdminLte\Helpers\CommandHelper;
+use Kalpvaig\LaravelAdminLte\Helpers\CommandHelper;
 
 class CommandHelperTest extends TestCase
 {

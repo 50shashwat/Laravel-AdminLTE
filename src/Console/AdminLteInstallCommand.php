@@ -1,15 +1,15 @@
 <?php
 
-namespace JeroenNoten\LaravelAdminLte\Console;
+namespace Kalpvaig\LaravelAdminLte\Console;
 
 use Illuminate\Console\Command;
-use JeroenNoten\LaravelAdminLte\Console\PackageResources\AssetsResource;
-use JeroenNoten\LaravelAdminLte\Console\PackageResources\AuthViewsResource;
-use JeroenNoten\LaravelAdminLte\Console\PackageResources\BasicRoutesResource;
-use JeroenNoten\LaravelAdminLte\Console\PackageResources\BasicViewsResource;
-use JeroenNoten\LaravelAdminLte\Console\PackageResources\ConfigResource;
-use JeroenNoten\LaravelAdminLte\Console\PackageResources\MainViewsResource;
-use JeroenNoten\LaravelAdminLte\Console\PackageResources\TranslationsResource;
+use Kalpvaig\LaravelAdminLte\Console\PackageResources\AssetsResource;
+use Kalpvaig\LaravelAdminLte\Console\PackageResources\AuthViewsResource;
+use Kalpvaig\LaravelAdminLte\Console\PackageResources\BasicRoutesResource;
+use Kalpvaig\LaravelAdminLte\Console\PackageResources\BasicViewsResource;
+use Kalpvaig\LaravelAdminLte\Console\PackageResources\ConfigResource;
+use Kalpvaig\LaravelAdminLte\Console\PackageResources\MainViewsResource;
+use Kalpvaig\LaravelAdminLte\Console\PackageResources\TranslationsResource;
 
 class AdminLteInstallCommand extends Command
 {

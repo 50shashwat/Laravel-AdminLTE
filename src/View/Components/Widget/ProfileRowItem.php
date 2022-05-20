@@ -1,9 +1,9 @@
 <?php
 
-namespace JeroenNoten\LaravelAdminLte\View\Components\Widget;
+namespace Kalpvaig\LaravelAdminLte\View\Components\Widget;
 
 use Illuminate\View\Component;
-use JeroenNoten\LaravelAdminLte\Helpers\UtilsHelper;
+use Kalpvaig\LaravelAdminLte\Helpers\UtilsHelper;
 
 class ProfileRowItem extends Component
 {

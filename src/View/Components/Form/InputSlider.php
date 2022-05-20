@@ -1,6 +1,6 @@
 <?php
 
-namespace JeroenNoten\LaravelAdminLte\View\Components\Form;
+namespace Kalpvaig\LaravelAdminLte\View\Components\Form;
 
 class InputSlider extends InputGroupComponent
 {

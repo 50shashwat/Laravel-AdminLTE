@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use JeroenNoten\LaravelAdminLte\Http\Controllers\DarkModeController;
+use Kalpvaig\LaravelAdminLte\Http\Controllers\DarkModeController;
 
 /*
 |--------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 <?php
 
-use JeroenNoten\LaravelAdminLte\AdminLte;
+use Kalpvaig\LaravelAdminLte\AdminLte;
 
 class ServiceProviderTest extends TestCase
 {
